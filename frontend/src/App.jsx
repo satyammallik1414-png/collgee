@@ -8,6 +8,9 @@ import AboutPage from './pages/AboutPage'
 import CoursesPage from './pages/CoursesPage'
 import ContactPage from './pages/ContactPage'
 import EventsPage from './pages/EventsPage'
+import GalleryPage from './pages/GalleryPage'
+import AlumniPage from './pages/AlumniPage'
+import AdmissionsPage from './pages/AdmissionsPage'
 
 function App() {
   const [isApplicationOpen, setIsApplicationOpen] = useState(false)
@@ -22,6 +25,9 @@ function App() {
           <Route path="/courses" element={<CoursesPage />} />
           <Route path="/contact" element={<ContactPage />} />
           <Route path="/events" element={<EventsPage />} />
+          <Route path="/gallery" element={<GalleryPage />} />
+          <Route path="/alumni" element={<AlumniPage />} />
+          <Route path="/admissions" element={<AdmissionsPage />} />
         </Routes>
         <Footer />
         <ApplicationForm isOpen={isApplicationOpen} onClose={() => setIsApplicationOpen(false)} />

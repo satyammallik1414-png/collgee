@@ -21,7 +21,10 @@ const Navbar = ({ onApplyClick }) => {
     { name: 'Home', href: '/', type: 'route' },
     { name: 'About', href: '/about', type: 'route' },
     { name: 'Courses', href: '/courses', type: 'route' },
+    { name: 'Admissions', href: '/admissions', type: 'route' },
     { name: 'Events', href: '/events', type: 'route' },
+    { name: 'Gallery', href: '/gallery', type: 'route' },
+    { name: 'Alumni', href: '/alumni', type: 'route' },
     { name: 'Contact', href: '/contact', type: 'route' }
   ]
 
